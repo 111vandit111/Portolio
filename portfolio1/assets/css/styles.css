@@ -191,12 +191,11 @@ img{
 }
 .home__data{
   align-self: center;
-  z-index: 100;
+  z-index: 99;
 }
 .home__title{
   font-size: var(--big-font-size);
   margin-bottom: var(--mb-5);
-  z-index: 100;
 }
 .home__title-color{
   color: var(--first-color);
@@ -316,6 +315,9 @@ img{
   border-radius: .5rem;
   overflow: hidden;
 }
+.work__img{
+  height: 100%;
+}
 .work__img img{
   transition: 1s;
   cursor: pointer;
@@ -325,7 +327,7 @@ img{
 }
 .work__text .text{
   height: 100%;
-  align-items: center;
+  align-items: flex-end;
   position: absolute;
   width:100%;
   display: flex;
